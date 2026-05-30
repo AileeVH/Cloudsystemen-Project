@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Users</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="layout">
+    <main>
+      <form method="GET">
+        <input 
+          class="search-input" 
+          type="text" 
+          name="search" 
+          placeholder="Search for users"
+          value="<%= search %>"
+        />
+      </form>
+
+      <%
+        function sortLink(field) {
+          const nextOrder = sort === field && order === "asc" ? "desc" : "asc";
+          return `/?search=${encodeURIComponent(search)}&sort=${field}&order=${nextOrder}`;
+        }
+
+        function sortArrow(field) {
+          if (sort !== field) return "";
+          return order === "asc" ? " ▲" : " ▼";
+        }
+      %>
+
+      <table>
+        <tr>
+          <th><a href="<%= sortLink('name') %>">NAME<%= sortArrow('name') %></a></th>
+          <th><a href="<%= sortLink('birthDate') %>">BIRTHDATE<%= sortArrow('birthDate') %></a></th>
+          <th><a href="<%= sortLink('dailyGoalSteps') %>">GOAL STEPS<%= sortArrow('dailyGoalSteps') %></a></th>
+          <th><a href="<%= sortLink('isActive') %>">ACTIVE<%= sortArrow('isActive') %></a></th>
+          <th><a href="<%= sortLink('plan') %>">PLAN<%= sortArrow('plan') %></a></th>
+          <th>ACTIONS</th>
+        </tr>
+
+        <% users.forEach(user => { %>
+          <tr>
+            <td>
+              <div class="user-cell">
+                <img class="user-img" src="/images/users/<%= user.name %>.png" />
+                <div>
+                  <div class="user-name"><%= user.name %></div>
+                  <div class="device-name"><%= user.device.brand %> <%= user.device.model %></div>
+                </div>
+              </div>
+            </td>
+
+            <td><%= user.birthDate %></td>
+            <td><%= user.dailyGoalSteps %></td>
+            <td>
+              <span class="active-dot <%= user.isActive ? 'active-true' : 'active-false' %>"></span>
+            </td>
+            <td><span class="plan"><%= user.plan %></span></td>
+            <td><a class="view-link" href="/user/<%= user.id %>">View</a></td>
+          </tr>
+        <% }) %>
+      </table>
+    </main>
+  </div>
+</body>
+</html>

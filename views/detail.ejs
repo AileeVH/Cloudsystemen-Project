@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= user.name %></title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="layout">
+        <main class="detail-page">
+
+            <h1 class="detail-title"><%= user.name %></h1>
+
+            <div class="detail-grid">
+                <section class="profile-card">
+                    <img class="detail-user-img" src="/images/users/<%= user.name %>.png" />
+
+                    <div class="status-pill <%= user.isActive ? 'pill-active' : 'pill-inactive' %>">
+                        <span class="status-dot <%= user.isActive ? 'active-true' : 'active-false' %>"></span>
+                        <%= user.isActive ? "Active" : "Inactive" %>
+                    </div>
+
+                    <div class="detail-info-list">
+                        <div class="detail-info-row">
+                            <span class="detail-icon">📅</span>
+                            <div>
+                                <p>Birthdate</p>
+                                <strong><%= user.birthDate %></strong>
+                            </div>
+                        </div>
+
+                        <div class="detail-info-row">
+                            <span class="detail-icon">🎯</span>
+                            <div>
+                                <p>Daily Goal Steps</p>
+                                <strong><%= user.dailyGoalSteps %> steps</strong>
+                            </div>
+                        </div>
+
+                        <div class="detail-info-row">
+                            <span class="detail-icon">👑</span>
+                            <div>
+                                <p>Plan</p>
+                                <strong><%= user.plan %></strong>
+                            </div>
+                        </div>
+
+                        <div class="detail-info-row">
+                            <span class="detail-icon">🏃</span>
+                            <div>
+                                <p>Favorite Activities</p>
+                                <strong><%= user.favoriteActivities.join(", ") %></strong>
+                            </div>
+                        </div>
+
+                        <div class="detail-info-row">
+                            <span class="detail-icon">📄</span>
+                            <div>
+                                <p>Description</p>
+                                <strong><%= user.description %></strong>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="device-card">
+                  <h2>Device</h2>
+
+                  <div class="device-content">
+                      <img class="detail-device-img" src="/images/devices/<%= user.device.brand %> <%= user.device.model %>.png" />
+                      <h3><%= user.device.brand %> <%= user.device.model %></h3>
+                      <p><strong>Operating system:</strong> <%= user.device.os %></p>
+                      <p><strong>Step sensor:</strong> <%= user.device.hasStepSensor ? "Yes" : "No" %></p>
+                  </div>
+              </section>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>

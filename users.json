@@ -1,0 +1,289 @@
+[
+  {
+    "id": 1,
+    "name": "Ailee",
+    "description": "Computer science student who uses StepApp daily to track steps between classes and study sessions.",
+    "dailyGoalSteps": 9000,
+    "isActive": true,
+    "birthDate": "2004-08-17",
+    "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/users/Ailee.png",
+    "plan": "free",
+    "favoriteActivities": ["walking", "stretching", "light cardio"],
+    "device": {
+      "id": 105,
+      "brand": "Apple",
+      "model": "iPhone 15 Pro",
+      "os": "iOS",
+      "hasStepSensor": true,
+      "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/devices/Apple%20iPhone%2015%20Pro.png"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Noah",
+    "description": "Walks to work every day and keeps a consistent daily step routine.",
+    "dailyGoalSteps": 8000,
+    "isActive": true,
+    "birthDate": "2002-03-11",
+    "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/users/Noah.png",
+    "plan": "plus",
+    "favoriteActivities": ["walking", "cycling"],
+    "device": {
+      "id": 101,
+      "brand": "Google",
+      "model": "Pixel 8",
+      "os": "Android",
+      "hasStepSensor": true,
+      "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/devices/Google%20Pixel%208.png"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Emma",
+    "description": "Tracks steps at home to stay active during long workdays.",
+    "dailyGoalSteps": 7500,
+    "isActive": false,
+    "birthDate": "1999-10-02",
+    "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/users/Emma.png",
+    "plan": "free",
+    "favoriteActivities": ["walking", "yoga"],
+    "device": {
+      "id": 103,
+      "brand": "Apple",
+      "model": "iPhone 14",
+      "os": "iOS",
+      "hasStepSensor": true,
+      "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/devices/Apple%20iPhone%2014.png"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Liam",
+    "description": "Enjoys long evening walks and tracks progress weekly.",
+    "dailyGoalSteps": 10000,
+    "isActive": true,
+    "birthDate": "2001-06-24",
+    "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/users/Liam.png",
+    "plan": "pro",
+    "favoriteActivities": ["walking", "running"],
+    "device": {
+      "id": 102,
+      "brand": "Samsung",
+      "model": "Galaxy S23",
+      "os": "Android",
+      "hasStepSensor": true,
+      "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/devices/Samsung%20Galaxy%20S23.png"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Sofia",
+    "description": "Uses short walks during breaks to reach daily goals.",
+    "dailyGoalSteps": 7000,
+    "isActive": true,
+    "birthDate": "1998-12-19",
+    "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/users/Sofia.png",
+    "plan": "plus",
+    "favoriteActivities": ["walking", "pilates"],
+    "device": {
+      "id": 104,
+      "brand": "Samsung",
+      "model": "Galaxy A54",
+      "os": "Android",
+      "hasStepSensor": true,
+      "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/devices/Samsung%20Galaxy%20A54.png"
+    }
+  },
+
+  {
+    "id": 6,
+    "name": "Milan",
+    "description": "Tracks commuting steps daily and prefers simple stats.",
+    "dailyGoalSteps": 8500,
+    "isActive": true,
+    "birthDate": "2000-01-08",
+    "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/users/Milan.png",
+    "plan": "free",
+    "favoriteActivities": ["walking", "stairs"],
+    "device": {
+      "id": 101,
+      "brand": "Google",
+      "model": "Pixel 8",
+      "os": "Android",
+      "hasStepSensor": true,
+      "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/devices/Google%20Pixel%208.png"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Chloe",
+    "description": "Focuses on daily consistency and step streaks.",
+    "dailyGoalSteps": 9000,
+    "isActive": false,
+    "birthDate": "2003-05-30",
+    "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/users/Chloe.png",
+    "plan": "free",
+    "favoriteActivities": ["walking", "dance"],
+    "device": {
+      "id": 103,
+      "brand": "Apple",
+      "model": "iPhone 14",
+      "os": "iOS",
+      "hasStepSensor": true,
+      "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/devices/Apple%20iPhone%2014.png"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Lucas",
+    "description": "Uses weekend hikes to exceed step goals.",
+    "dailyGoalSteps": 6500,
+    "isActive": true,
+    "birthDate": "1997-09-14",
+    "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/users/Lucas.png",
+    "plan": "plus",
+    "favoriteActivities": ["walking", "hiking"],
+    "device": {
+      "id": 102,
+      "brand": "Samsung",
+      "model": "Galaxy S23",
+      "os": "Android",
+      "hasStepSensor": true,
+      "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/devices/Samsung%20Galaxy%20S23.png"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Nora",
+    "description": "Tracks indoor movement during study sessions.",
+    "dailyGoalSteps": 7200,
+    "isActive": true,
+    "birthDate": "2005-02-01",
+    "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/users/Nora.png",
+    "plan": "free",
+    "favoriteActivities": ["walking", "stretching"],
+    "device": {
+      "id": 104,
+      "brand": "Samsung",
+      "model": "Galaxy A54",
+      "os": "Android",
+      "hasStepSensor": true,
+      "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/devices/Samsung%20Galaxy%20A54.png"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Ethan",
+    "description": "Enjoys outdoor running and often surpasses his goals.",
+    "dailyGoalSteps": 11000,
+    "isActive": true,
+    "birthDate": "1996-11-07",
+    "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/users/Ethan.png",
+    "plan": "pro",
+    "favoriteActivities": ["running", "walking"],
+    "device": {
+      "id": 101,
+      "brand": "Google",
+      "model": "Pixel 8",
+      "os": "Android",
+      "hasStepSensor": true,
+      "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/devices/Google%20Pixel%208.png"
+    }
+  },
+
+  {
+    "id": 11,
+    "name": "Maya",
+    "description": "Keeps modest goals and prefers gentle daily movement.",
+    "dailyGoalSteps": 6000,
+    "isActive": false,
+    "birthDate": "1999-04-22",
+    "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/users/Maya.png",
+    "plan": "free",
+    "favoriteActivities": ["yoga", "walking"],
+    "device": {
+      "id": 105,
+      "brand": "Apple",
+      "model": "iPhone 15 Pro",
+      "os": "iOS",
+      "hasStepSensor": true,
+      "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/devices/Apple%20iPhone%2015%20Pro.png"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Arnaud",
+    "description": "Tracks steps while commuting between campus buildings.",
+    "dailyGoalSteps": 8200,
+    "isActive": true,
+    "birthDate": "2001-02-16",
+    "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/users/Arnaud.png",
+    "plan": "plus",
+    "favoriteActivities": ["cycling", "walking"],
+    "device": {
+      "id": 102,
+      "brand": "Samsung",
+      "model": "Galaxy S23",
+      "os": "Android",
+      "hasStepSensor": true,
+      "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/devices/Samsung%20Galaxy%20S23.png"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Julie",
+    "description": "Uses reminders to move every hour during long study days.",
+    "dailyGoalSteps": 9500,
+    "isActive": true,
+    "birthDate": "2003-07-09",
+    "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/users/Julie.png",
+    "plan": "free",
+    "favoriteActivities": ["walking", "light cardio"],
+    "device": {
+      "id": 101,
+      "brand": "Google",
+      "model": "Pixel 8",
+      "os": "Android",
+      "hasStepSensor": true,
+      "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/devices/Google%20Pixel%208.png"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Rayan",
+    "description": "Enjoys weekend hikes and compares weekly stats.",
+    "dailyGoalSteps": 7800,
+    "isActive": true,
+    "birthDate": "2002-09-03",
+    "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/users/Rayan.png",
+    "plan": "plus",
+    "favoriteActivities": ["hiking", "walking"],
+    "device": {
+      "id": 104,
+      "brand": "Samsung",
+      "model": "Galaxy A54",
+      "os": "Android",
+      "hasStepSensor": true,
+      "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/devices/Samsung%20Galaxy%20A54.png"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Sara",
+    "description": "Tracks daily movement to stay healthy during office work.",
+    "dailyGoalSteps": 6800,
+    "isActive": false,
+    "birthDate": "1998-01-28",
+    "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/users/Sara.png",
+    "plan": "free",
+    "favoriteActivities": ["walking", "stretching"],
+    "device": {
+      "id": 103,
+      "brand": "Apple",
+      "model": "iPhone 14",
+      "os": "iOS",
+      "hasStepSensor": true,
+      "imageUrl": "https://raw.githubusercontent.com/AileeVH/StepAppUsers-json/refs/heads/main/images/devices/Apple%20iPhone%2014.png"
+    }
+  }
+]

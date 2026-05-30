@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #111827;
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 32px 42px;
+}
+
+.search-input {
+  width: 330px;
+  padding: 14px 18px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-bottom: 22px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #f9fafb;
+  text-align: center;
+  padding: 18px 28px;
+  font-size: 14px;
+  color: #374151;
+}
+
+td {
+  padding: 22px 28px;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+  color: #6b7280;
+}
+
+td:first-child {
+  text-align: left;
+}
+
+th a {
+  color: #374151;
+  text-decoration: none;
+}
+
+th a:hover {
+  text-decoration: underline;
+}
+
+.user-cell {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.user-img {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.user-name {
+  color: #111827;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.device-name {
+  margin-top: 4px;
+  color: #6b7280;
+}
+
+.plan {
+  display: inline-block;
+  padding: 5px 14px;
+  border-radius: 999px;
+  background-color: #fef3c7;
+  color: #92400e;
+  font-weight: bold;
+}
+
+.active-dot {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.active-true {
+  background-color: #10b981;
+}
+
+.active-false {
+  background-color: #ef4444;
+}
+
+.view-link {
+  color: #2563eb;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.detail-page {
+  flex: 1;
+  background-color: #f8fafc;
+  padding: 10px 15px;
+}
+
+.detail-title {
+  margin-top: 18px;
+  margin-bottom: 24px;
+  font-size: 32px;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 310px 1fr;
+  gap: 26px;
+  align-items: start;
+}
+
+.profile-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+  padding: 32px 26px 10px 26px;
+  text-align: center;
+}
+
+.device-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+}
+
+.detail-user-img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 20%;
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  padding: 8px 18px;
+  border-radius: 999px;
+}
+
+.pill-active {
+  background-color: #dcfce7; /* groen */
+  color: #15803d;
+}
+
+.pill-inactive {
+  background-color: #fee2e2; /* licht rood */
+  color: #b91c1c;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.detail-info-list {
+  margin-top: 24px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.detail-info-row {
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  gap: 14px;
+  text-align: left;
+  padding: 16px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.detail-icon {
+  font-size: 20px;
+}
+
+.detail-info-row p {
+  margin: 0 0 5px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.detail-info-row strong {
+  font-size: 15px;
+}
+
+.device-card {
+  padding: 30px 36px;
+}
+
+.device-card h2 {
+  margin-top: 0;
+}
+
+.device-content {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  margin-top: 30px;
+}
+
+.detail-device-img {
+  width: 240px;
+  max-height: 260px;
+  object-fit: contain;
+}
+
+.device-content h3 {
+  font-size: 24px;
+}
+
+.device-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
